@@ -5,8 +5,6 @@ A small app for ordering pizzas at the blink of an eye! The app fetches all pizz
 ## Deployed app link: https://yummipizzabytarik.herokuapp.com/
 
 ### Built with
-* HTML
-* Vanilla CSS
 * React.js
 * Laravel
 * MySQL
