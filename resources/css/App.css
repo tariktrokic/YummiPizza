@@ -201,6 +201,8 @@ body {
 }
 
 .modal {
+    max-width: 95%;
+    min-width: 50%;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -238,6 +240,8 @@ body {
 }
 
 .checkoutModal {
+    max-width: 95%;
+    min-width: 50%;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -258,7 +262,6 @@ body {
 }
 
 .pizzaModalName {
-    width: 50vw;
     font-size: 8rem;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -312,9 +315,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
-    height: 10vw;
     font-size: 3rem;
+    padding: 2rem;
 }
 
 .cartPizzaList {
@@ -335,7 +337,6 @@ body {
 
 .form {
     margin: 1vw auto;
-    width: 50vw;
     border: 1px solid black;
     padding: .5vw;
     overflow-wrap: break-word;
@@ -362,7 +363,7 @@ body {
     font: inherit;
     font-size: 3rem;
     padding: 1rem;
-    margin-top: 1.5vh;
+    margin-top: 5vh;
     border-radius: 50px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     cursor: pointer;
